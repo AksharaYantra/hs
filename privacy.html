@@ -1,6 +1,242 @@
-﻿@{
-    ViewData["Title"] = "Privacy Policy";
-}
-<h1>@ViewData["Title"]</h1>
+﻿<!DOCTYPE html>
+<html lang="en">
 
-<p>Use this page to detail your site's privacy policy.</p>
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- PAGE TITLE -->
+    <title>Y-VitalSigns</title>
+    <!-- FAVI ICON -->
+    <link rel="icon" type="image/png" href="images/favi.png" sizes="32x32">
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ALL GOOGLE FONTS -->
+    <link href="css/google-fonts.css" rel="stylesheet">
+    <!-- FONT AWESOME CSS -->
+    <link rel="stylesheet" href="fonts/linear-fonts.css">
+    <link rel="stylesheet" href="fonts/font-awesome.css">
+    
+    <!-- MAIN STYLE CSS -->
+    <link rel="stylesheet" href="css/style_green.css">
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- START PRELOADER -->
+    <div class="preloader">
+        <div class="status">
+            <div class="status-mes"></div>
+        </div>
+    </div>
+    <!-- / END PRELOADER -->
+    <!-- START HOMEPAGE DESIGN AREA -->
+    <header id="home" class="welcome-area">
+        <div class="header-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <!-- START LOGO DESIGN AREA -->
+                        <div class="logo">
+                            <a href="index.html">
+                                <p>Y-VitalSigns</p>
+                            </a>
+                        </div>
+                        <!-- END LOGO DESIGN AREA -->
+                    </div>
+                    <div class="col-md-9">
+                        <!-- START MENU DESIGN AREA -->
+                        <div class="mainmenu">
+                            <div class="navbar navbar-nobg">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle Navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="active"><a class="smoth-scroll" href="#home">Home <div class="ripple-wrapper"></div></a></li>                                       
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END MENU DESIGN AREA -->
+                    </div>
+                </div>
+            </div>
+        </div>        
+            <div id="welcome-slide-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+                <ol class="carousel-indicators">
+                    <li data-target="#welcome-slide-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#welcome-slide-carousel" data-slide-to="1"></li>
+                    <li data-target="#welcome-slide-carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="single-slide-item slide-1">
+                            <div class="single-slide-item-table">
+                                <div class="single-slide-item-tablecell">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                <div class="header-text">
+                                                    <h2>Y-VitalSigns!</h2>
+                                                    <p>Advisory Medical App to check your vital signs in a non-invasive way!!.</p>
+                                                    <a class="white-read-more" href="#about">App Download</a>
+                                                    <a class="white-read-more" href="#contact">Contact us</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="single-slide-item slide-2">
+                            <div class="single-slide-item-table">
+                                <div class="single-slide-item-tablecell">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                <div class="header-text">
+                                                    <h2>Y-VitalSigns!</h2>
+                                                    <p>
+                                                        Y-VitalSigns App provides systematic reviwes of chronic health conditions,
+                                                        notifies and motivates improving health outcomes.
+                                                    </p>
+                                                    <a class="white-read-more" href="#about">App Download</a>
+                                                    <a class="white-read-more" href="#contact">Contact us</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="single-slide-item slide-3">
+                            <div class="single-slide-item-table">
+                                <div class="single-slide-item-tablecell">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                <div class="header-text">
+                                                    <h2>Y-VitalSigns!</h2>
+                                                    <p>
+                                                        Check your vital signs such as
+                                                        heartrate, cardiac function, blood sugars and detects the stage
+                                                        of your diabetes, blood pressure, respiratory rate, lung capacity,
+                                                        liver disorders and temperature.
+                                                    </p>
+                                                    <a class="white-read-more" href="#about">App Download</a>
+                                                    <a class="white-read-more" href="#contact">Contact us</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- / END HOMEPAGE DESIGN AREA -->
+    <!-- START ABOUT US DESIGN AREA -->
+    <section id="about" class="about-us-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2>Privacy Policy</h2>
+                        <span class="title-divider">
+                            <i class="fa fa-diamond" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- START ABOUT US TEXT DESIGN AREA -->
+                <div class="col-md-12">
+                    <div class="about-text wow fadeInUp" data-wow-delay=".2s">
+                        <h2 class="text-center">Welcome to Y-VitalSigns</h2>                        
+                        <p>
+                           
+                        </p>
+                    </div>
+                </div>
+                <!-- / END ABOUT US TEXT DESIGN AREA -->
+
+            </div>
+        </div>
+    </section>  
+    
+    <!-- START FOOTER DESIGN AREA -->
+    <footer class="footer-area wow fadeInUp" data-wow-delay="1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2>Y-VitalSigns</h2>
+                        <span class="title-divider">
+                            <i class="fa fa-diamond" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <div class="footer-social-link text-center">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                    <!--<span class="title-divider">
+                        <i class="fa fa-diamond" aria-hidden="true"></i>
+                    </span>-->
+                    <div class="footer-text">
+                        <h6>&copy;copyright | Akshara Yantra 2020.</h6>
+                        <a class="active" href="www.AkshraYantra.com">www.AksharaYantra.com</a>
+                        <h6><a class="active" href="privacy.html">Privacy Policy</a> | 
+                        <a class="active" href="terms.html">Terms &amp; Conditions</a></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- / END CONTACT DETAILS DESIGN AREA -->
+    <!-- START SCROOL UP DESIGN AREA -->
+    <div class="scroll-to-up">
+        <div class="scrollup">
+            <span class="lnr lnr-chevron-up"></span>
+        </div>
+    </div>
+    <!-- / END SCROOL UP DESIGN AREA -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <!-- LATEST JQUERY -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- BOOTSTRAP JS -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- scripts js -->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
